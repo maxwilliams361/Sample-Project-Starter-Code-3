@@ -1,0 +1,45 @@
+
+/* The code on lines 3-7 makes the background of the header black and the text of the title of the webpage white. Change this to match what you want for your website! */
+header {
+    background-color: blue;
+    
+    padding: 128px 16px;
+    background-image:url("https://img.freepik.com/free-vector/underwater-background-water-surface-ocean-sea_33099-1755.jpg?w=2000");
+}
+
+
+.solutions{
+    display:flex;
+    justify-content:center;
+}
+.item{
+    border: 5px solid blue;
+    background-color:#5dc7f5;
+    margin:5px;
+}
+
+.solutions-title{
+    text-align:center;
+}
+
+body{
+    font-family: 'Aclonica';font-size: 22px;
+}
+
+button{
+ 
+     padding: 25px;
+    border-radius: 10px;
+    margin: 5px;
+    font-family: 'Aclonica';font-size: 22px;
+}
+
+.button{
+    margin:5px;
+    display:flex;
+    justify-content:center;
+}
+
+img{
+    width:100px;
+}
